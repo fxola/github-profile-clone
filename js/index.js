@@ -13,8 +13,7 @@ const renderPageContent = result => {
   repositoryContainer.innerHTML = repositories;
 };
 
-const renderErrorToast = e => {
-  console.log(e);
+const renderErrorToast = () => {
   const template = grab("error-template");
   template.style.display = "flex";
 
